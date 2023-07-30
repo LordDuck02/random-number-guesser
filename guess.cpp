@@ -5,7 +5,7 @@
 //must be global
 int random_numb;
 
-void randomnumb() {
+int randomnumb() {
 	//make the thingy i forogr
 	std::srand(static_cast<unsigned int>(std::time(0)));
 	random_numb = std::rand() % 10 + 1; // get random number
